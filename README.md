@@ -123,4 +123,4 @@ bot_deployer/
 ├── .env                   # Config vars like TOKEN, OWNER_ID, etc.<br>
 ├── Makefile               # Automation for Docker and bot management<br>
 ├── requirements.txt       # Python dependencies<br>
-└── docker-compose.yml     # Docker Compose configuration
+└── docker-compose.yaml     # Docker Compose configuration
