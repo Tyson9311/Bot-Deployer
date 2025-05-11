@@ -114,13 +114,13 @@ Server restart ke baad bots automatically start ho jayenge agar tumne `auto_star
 ## File Structure
 
 bot_deployer/
-├── main.py                # Telegram bot starter
-├── handlers.py            # All command handlers (/deploy_github, /stop_bot, etc.)
-├── docker_manager.py      # Docker image/build/run/stop logic
-├── utils.py               # Utility functions (e.g., validation, path handling)
-├── config.py              # Owner ID, sudo list, limits, env loading
-├── auto_start.py          # Logic to auto-start bots on reboot
-├── .env                   # Config vars like TOKEN, OWNER_ID, etc.
-├── Makefile               # Automation for Docker and bot management
-├── requirements.txt       # Python dependencies
+├── main.py                # Telegram bot starter <br>
+├── handlers.py            # All command handlers (/deploy_github, /stop_bot, etc.) <br>
+├── docker_manager.py      # Docker image/build/run/stop logic <br>
+├── utils.py               # Utility functions (e.g., validation, path handling) <br>
+├── config.py              # Owner ID, sudo list, limits, env loading<br>
+├── auto_start.py          # Logic to auto-start bots on reboot<br>
+├── .env                   # Config vars like TOKEN, OWNER_ID, etc.<br>
+├── Makefile               # Automation for Docker and bot management<br>
+├── requirements.txt       # Python dependencies<br>
 └── docker-compose.yml     # Docker Compose configuration
