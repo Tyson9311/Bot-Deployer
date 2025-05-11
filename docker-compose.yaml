@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  bot-deployer:
+    build: .
+    container_name: bot_deployer
+    volumes:
+      - ./hosted_bots:/app/hosted_bots
+      - /var/run/docker.sock:/var/run/docker.sock
+    env_file:
+      - .env
+    restart: unless-stopped
